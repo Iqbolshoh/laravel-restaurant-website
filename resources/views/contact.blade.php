@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Bosh sahifa | Restoran Website')
+@section('title', 'Aloqa | Restoran Website')
 
 @section('content')
 <div class="bg-white py-16 md:py-24">
@@ -59,7 +59,7 @@
                     <i class="fas fa-envelope text-gold text-xl mt-1"></i>
                     <div>
                         <p class="font-semibold">Email</p>
-                        <p>info@rayhonrestaurant.uz</p>
+                        <p>info@Restoran Websiterestaurant.uz</p>
                     </div>
                 </div>
             </div>
