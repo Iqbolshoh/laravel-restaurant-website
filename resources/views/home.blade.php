@@ -8,7 +8,7 @@
     <div class="absolute inset-0 bg-black/60 backdrop-brightness-50"></div>
     <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 class="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight">Haqiqiy ta'm sari <br> <span class="text-gold">sayohat</span></h1>
-        <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">Rayhon restorani — 2010 yildan beri milliy taomlar va zamonaviy Yevropa oshxonasining uyg'unligi.</p>
+        <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">Restoran Website restorani — 2010 yildan beri milliy taomlar va zamonaviy Yevropa oshxonasining uyg'unligi.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/menu" class="bg-gold hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full text-lg transition shadow-xl">
                 Menyuni ko'rish
@@ -23,7 +23,7 @@
 <!-- Nega biz? -->
 <section class="py-20 md:py-28 bg-white">
     <div class="max-w-7xl mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-5xl font-serif font-bold text-dark mb-16">Nega aynan <span class="text-gold">Rayhon?</span></h2>
+        <h2 class="text-3xl md:text-5xl font-serif font-bold text-dark mb-16">Nega aynan <span class="text-gold">Restoran Website?</span></h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div class="p-8 rounded-2xl bg-softgray hover-lift">
                 <div class="text-gold text-4xl mb-5"><i class="fas fa-leaf"></i></div>
@@ -74,7 +74,7 @@
             <div class="bg-white rounded-2xl overflow-hidden shadow-md hover-lift">
                 <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1780&auto=format&fit=crop" alt="Salat" class="h-56 w-full object-cover">
                 <div class="p-5">
-                    <h4 class="font-serif font-bold text-xl">Rayhon salati</h4>
+                    <h4 class="font-serif font-bold text-xl">Restoran Website salati</h4>
                     <p class="text-sm text-gray-500 mt-1">Yangi ko'katlar bilan</p>
                 </div>
             </div>
