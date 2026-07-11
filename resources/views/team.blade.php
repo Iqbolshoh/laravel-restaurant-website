@@ -9,41 +9,64 @@
         <p class="text-gray-500 max-w-2xl mx-auto mb-16">Har biri o'z sohasining ustasi. Ta'm va xizmatdagi mukammallik siri.</p>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-            <!-- A'zo 1 -->
+            <!-- A'zo 1 - Bosh oshpaz (Erkak) -->
             <div class="team-card group">
                 <div class="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-5 border-4 border-gold/30 group-hover:border-gold transition">
-                    <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=1887&auto=format&fit=crop" alt="Chef" class="w-full h-full object-cover">
+                    <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?w=200&h=200&fit=crop&auto=format" 
+                         alt="Bosh oshpaz Alisher Karimov" 
+                         class="w-full h-full object-cover"
+                         loading="lazy"
+                         width="200"
+                         height="200">
                 </div>
                 <h3 class="font-serif font-bold text-xl">Alisher Karimov</h3>
                 <p class="text-gold font-medium">Bosh oshpaz</p>
                 <p class="text-sm text-gray-500 mt-2">15 yillik tajriba, Yevropa oshxonalarida malaka oshirgan.</p>
             </div>
-            <!-- A'zo 2 -->
+            
+            <!-- A'zo 2 - Sous-oshpaz (Ayol) -->
             <div class="team-card group">
                 <div class="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-5 border-4 border-gold/30 group-hover:border-gold transition">
-                    <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?q=80&w=1880&auto=format&fit=crop" alt="Sous chef" class="w-full h-full object-cover">
+                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=200&h=200&fit=crop&auto=format" 
+                         alt="Sous-oshpaz Dilnoza Yusupova" 
+                         class="w-full h-full object-cover"
+                         loading="lazy"
+                         width="200"
+                         height="200">
                 </div>
                 <h3 class="font-serif font-bold text-xl">Dilnoza Yusupova</h3>
                 <p class="text-gold font-medium">Sous-oshpaz</p>
-                <p class="text-sm text-gray-500 mt-2">Milliy taomlar bo'yicha mutaxassis.</p>
+                <p class="text-sm text-gray-500 mt-2">Milliy taomlar bo'yicha mutaxassis, 8 yillik tajriba.</p>
             </div>
-            <!-- A'zo 3 -->
+            
+            <!-- A'zo 3 - Restoran menejeri (Erkak) -->
             <div class="team-card group">
                 <div class="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-5 border-4 border-gold/30 group-hover:border-gold transition">
-                    <img src="https://images.unsplash.com/photo-1542189040-2c6e2c8b8b7b?q=80&w=1887&auto=format&fit=crop" alt="Manager" class="w-full h-full object-cover">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&auto=format" 
+                         alt="Restoran menejeri Jasur Rahimov" 
+                         class="w-full h-full object-cover"
+                         loading="lazy"
+                         width="200"
+                         height="200">
                 </div>
                 <h3 class="font-serif font-bold text-xl">Jasur Rahimov</h3>
                 <p class="text-gold font-medium">Restoran menejeri</p>
                 <p class="text-sm text-gray-500 mt-2">Mehmonlarga yuqori darajadagi xizmat uchun mas'ul.</p>
             </div>
-            <!-- A'zo 4 -->
+            
+            <!-- A'zo 4 - Qandolatchi (Ayol) -->
             <div class="team-card group">
                 <div class="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-5 border-4 border-gold/30 group-hover:border-gold transition">
-                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=1887&auto=format&fit=crop" alt="Pastry" class="w-full h-full object-cover">
+                    <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&h=200&fit=crop&auto=format" 
+                         alt="Qandolatchi Madina Sobirova" 
+                         class="w-full h-full object-cover"
+                         loading="lazy"
+                         width="200"
+                         height="200">
                 </div>
                 <h3 class="font-serif font-bold text-xl">Madina Sobirova</h3>
                 <p class="text-gold font-medium">Qandolatchi</p>
-                <p class="text-sm text-gray-500 mt-2">Fransuz desertlari va milliy shirinliklar.</p>
+                <p class="text-sm text-gray-500 mt-2">Fransuz desertlari va milliy shirinliklar ustasi.</p>
             </div>
         </div>
     </div>

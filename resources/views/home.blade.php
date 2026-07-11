@@ -3,9 +3,19 @@
 @section('title', 'Bosh sahifa | Restoran Website')
 
 @section('content')
-<!-- Hero bo'limi -->
-<section class="relative bg-hero-pattern bg-cover bg-center bg-no-repeat h-[85vh] flex items-center justify-center text-white">
+<!-- Hero bo'limi banner rasm bilan -->
+<section class="relative h-[85vh] flex items-center justify-center text-white">
+    <!-- Banner rasm orqa fon -->
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&h=1080&fit=crop&auto=format"
+        alt="Restoran ichki ko'rinishi"
+        class="absolute inset-0 w-full h-full object-cover"
+        loading="eager"
+        width="1920"
+        height="1080">
+    <!-- Qoraytiruvchi overlay -->
     <div class="absolute inset-0 bg-black/60 backdrop-brightness-50"></div>
+
+    <!-- Matn kontenti -->
     <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 class="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight">Haqiqiy ta'm sari <br> <span class="text-gold">sayohat</span></h1>
         <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">Restoran Website restorani — 2010 yildan beri milliy taomlar va zamonaviy Yevropa oshxonasining uyg'unligi.</p>
@@ -19,8 +29,6 @@
         </div>
     </div>
 </section>
-
-<h1>salom ishlar yaxshimi?</h1>
 
 <!-- Nega biz? -->
 <section class="py-20 md:py-28 bg-white">
@@ -53,28 +61,48 @@
         <p class="text-gray-600 max-w-2xl mx-auto mb-16">Mijozlarimiz eng ko'p buyurtma beradigan durdonalar</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="bg-white rounded-2xl overflow-hidden shadow-md hover-lift">
-                <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?q=80&w=2070&auto=format&fit=crop" alt="Osh" class="h-56 w-full object-cover">
+                <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&h=350&fit=crop&auto=format"
+                    alt="Osh"
+                    class="h-56 w-full object-cover"
+                    loading="lazy"
+                    width="500"
+                    height="350">
                 <div class="p-5">
                     <h4 class="font-serif font-bold text-xl">To'y Oshi</h4>
                     <p class="text-sm text-gray-500 mt-1">An'anaviy retsept</p>
                 </div>
             </div>
             <div class="bg-white rounded-2xl overflow-hidden shadow-md hover-lift">
-                <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=2071&auto=format&fit=crop" alt="Manti" class="h-56 w-full object-cover">
+                <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=500&h=350&fit=crop&auto=format"
+                    alt="Manti"
+                    class="h-56 w-full object-cover"
+                    loading="lazy"
+                    width="500"
+                    height="350">
                 <div class="p-5">
                     <h4 class="font-serif font-bold text-xl">Manti</h4>
                     <p class="text-sm text-gray-500 mt-1">Qo'zi go'shti bilan</p>
                 </div>
             </div>
             <div class="bg-white rounded-2xl overflow-hidden shadow-md hover-lift">
-                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1887&auto=format&fit=crop" alt="Kabob" class="h-56 w-full object-cover">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500&h=350&fit=crop&auto=format"
+                    alt="Kabob"
+                    class="h-56 w-full object-cover"
+                    loading="lazy"
+                    width="500"
+                    height="350">
                 <div class="p-5">
                     <h4 class="font-serif font-bold text-xl">Shashlik</h4>
                     <p class="text-sm text-gray-500 mt-1">Mol go'shti, maxsus marinad</p>
                 </div>
             </div>
             <div class="bg-white rounded-2xl overflow-hidden shadow-md hover-lift">
-                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1780&auto=format&fit=crop" alt="Salat" class="h-56 w-full object-cover">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=350&fit=crop&auto=format"
+                    alt="Salat"
+                    class="h-56 w-full object-cover"
+                    loading="lazy"
+                    width="500"
+                    height="350">
                 <div class="p-5">
                     <h4 class="font-serif font-bold text-xl">Restoran Website salati</h4>
                     <p class="text-sm text-gray-500 mt-1">Yangi ko'katlar bilan</p>

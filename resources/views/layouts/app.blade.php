@@ -22,15 +22,15 @@
 <body class="bg-cream font-sans text-dark antialiased">
 
     <!-- Navigatsiya -->
-    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm border-b border-softgray/60">
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-xs border-b border-softgray/60">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <div class="flex items-center space-x-2">
+                <div class="flex items-center gap-2">
                     <i class="fas fa-utensils text-3xl text-gold"></i>
                     <span class="text-2xl md:text-3xl font-serif font-bold tracking-wide text-dark">Restoran Website</span>
                 </div>
 
-                <nav class="hidden md:flex items-center space-x-8 font-medium text-gray-700">
+                <nav class="hidden md:flex items-center gap-8 font-medium text-gray-700">
                     <a href="/"
                         class="{{ request()->is('/') ? 'text-gold border-gold' : 'hover:text-gold border-transparent' }} border-b-2 pb-1 transition">
                         Bosh sahifa
@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-button" class="text-dark focus:outline-none text-2xl">
+                    <button id="mobile-menu-button" class="text-dark focus:outline-hidden text-2xl">
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
