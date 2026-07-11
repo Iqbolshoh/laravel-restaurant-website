@@ -20,6 +20,8 @@
     </div>
 </section>
 
+<h1>salom ishlar yaxshimi?</h1>
+
 <!-- Nega biz? -->
 <section class="py-20 md:py-28 bg-white">
     <div class="max-w-7xl mx-auto px-4 text-center">

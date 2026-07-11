@@ -3,56 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Restoran Website')</title>
 
-    @if(file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @endif
-
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        gold: '#C8A96E',
-                        dark: '#1F1F1F',
-                        cream: '#FDFBF7',
-                        softgray: '#F5F3EF',
-                    },
-                    fontFamily: {
-                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                    },
-                    backgroundImage: {
-                        'hero-pattern': "url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop')",
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
-        .hover-lift {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-        .hover-lift:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 25px 30px -12px rgba(0, 0, 0, 0.15);
-        }
-
-        .mobile-menu {
-            transition: all 0.3s ease;
-        }
-    </style>
+    <!-- Vite -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body class="bg-cream font-sans text-dark antialiased">
