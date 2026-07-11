@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
     <title>@yield('title', 'Restoran Website')</title>
-    <!-- Tailwind CSS 4 CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -60,7 +58,7 @@
             <div class="flex justify-between items-center h-20">
                 <div class="flex items-center space-x-2">
                     <i class="fas fa-utensils text-3xl text-gold"></i>
-                    <span class="text-2xl md:text-3xl font-serif font-bold tracking-wide text-dark">Restoran Website</span>
+                    <span class="text-2xl md:text-3xl font-serif font-bold tracking-wide text-dark">Rayhon</span>
                 </div>
 
                 <nav class="hidden md:flex items-center space-x-8 font-medium text-gray-700">
@@ -117,7 +115,7 @@
         <div class="max-w-7xl mx-auto px-4 text-center md:text-left">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <h3 class="text-white font-serif text-2xl font-bold mb-4">Restoran Website</h3>
+                    <h3 class="text-white font-serif text-2xl font-bold mb-4">Rayhon</h3>
                     <p class="text-sm">2010 yildan beri yuqori darajadagi xizmat va unutilmas ta'm.</p>
                 </div>
                 <div>
@@ -159,7 +157,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-10 pt-6 text-sm text-center">
-                &copy; 2026 Restoran Website Restorani. Barcha huquqlar himoyalangan.
+                &copy; 2026 Rayhon Restorani. Barcha huquqlar himoyalangan.
             </div>
         </div>
     </footer>

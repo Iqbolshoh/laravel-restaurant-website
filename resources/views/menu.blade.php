@@ -88,7 +88,7 @@
                     <div class="flex justify-between items-start border-b border-dashed border-gray-200 pb-5">
                         <div>
                             <h3 class="font-semibold text-lg">Pizza Margarita</h3>
-                            <p class="text-sm text-gray-500">Motsarella, Restoran Website, pomidor</p>
+                            <p class="text-sm text-gray-500">Motsarella, rayhon, pomidor</p>
                         </div>
                         <span class="text-gold font-bold text-lg">55,000 so'm</span>
                     </div>
