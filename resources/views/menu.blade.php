@@ -49,7 +49,7 @@
                 </div>
 
                 <nav class="hidden md:flex items-center space-x-8 font-medium text-gray-700">
-                    <a href="/index" class="hover:text-gold transition border-b-2 border-transparent pb-1">Bosh sahifa</a>
+                    <a href="/" class="hover:text-gold transition border-b-2 border-transparent pb-1">Bosh sahifa</a>
                     <a href="/menu" class="text-gold border-b-2 border-gold pb-1">Menyu</a>
                     <a href="/team" class="hover:text-gold transition border-b-2 border-transparent pb-1">Jamoa</a>
                     <a href="/contact" class="hover:text-gold transition border-b-2 border-transparent pb-1">Aloqa</a>
@@ -69,7 +69,7 @@
             </div>
 
             <div id="mobile-menu" class="md:hidden hidden mobile-menu pb-4 pt-2 space-y-3 bg-white/95">
-                <a href="/index" class="block py-2 px-3 rounded-lg hover:bg-softgray font-medium">Bosh sahifa</a>
+                <a href="/" class="block py-2 px-3 rounded-lg hover:bg-softgray font-medium">Bosh sahifa</a>
                 <a href="/menu" class="block py-2 px-3 rounded-lg bg-softgray font-medium text-gold">Menyu</a>
                 <a href="/team" class="block py-2 px-3 rounded-lg hover:bg-softgray font-medium">Jamoa</a>
                 <a href="/contact" class="block py-2 px-3 rounded-lg hover:bg-softgray font-medium">Aloqa</a>
@@ -213,7 +213,7 @@
                 <div>
                     <h4 class="text-white font-semibold mb-4">Sahifalar</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="/index" class="hover:text-gold transition">Bosh sahifa</a></li>
+                        <li><a href="/" class="hover:text-gold transition">Bosh sahifa</a></li>
                         <li><a href="/menu" class="text-gold">Menyu</a></li>
                         <li><a href="/team" class="hover:text-gold transition">Jamoa</a></li>
                         <li><a href="/contact" class="hover:text-gold transition">Aloqa</a></li>
